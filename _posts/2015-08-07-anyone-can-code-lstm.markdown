@@ -400,7 +400,7 @@ Why the hidden layer? Well, we could technically do this.
 
 <p><b>Line 78:</b> Compute how much the prediction missed</p>
 
-<p><b>Line 79:</b> We're going to store the derivative (mustard orange in the graphic above) in a list, holding the derivative at each timestep.</p>
+<p><b>Line 79:</b> We're going to store the derivative (mustard orange in the graphic above) in a list, containing the derivative at each timestep.</p>
 
 <p><b>Line 80:</b> Calculate the sum of the absolute errors so that we have a scalar error (to track propagation). We'll end up with a sum of the error at each binary position.</p>
 
